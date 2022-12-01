@@ -1,0 +1,77 @@
+html {
+    background-color: #f0f8ff;
+    margin: 25px;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 3px dotted #D1C4CB;
+    color: black;
+}
+
+a:hover {
+    color: rgb(100, 100, 100);
+    transition-duration: 0.2s;
+}
+
+.main-heading a {
+    text-decoration: none;
+    border-bottom: none;
+    color: black;
+}
+
+.main-heading a:hover {
+    color: rgb(100, 100, 100);
+}
+
+.main-heading {
+    font: 4em Garamond;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    font: 2em "Gill Sans";
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+hr {
+    height: 5px;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color: #F8FFF0;
+    border-color: rgb(100, 100, 100);
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+section {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+p {
+    font: 1.2em "Garamond";
+}
+
+button {
+    font: 1.1em "Gill Sans";
+    background-color: #F8FFF0;
+    border-color: rgb(60, 60, 60);
+    border-radius: 15px;
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: #CBD1C4;
+}
+
+.list-item {
+    font: 1.3em Garamond;
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+}
