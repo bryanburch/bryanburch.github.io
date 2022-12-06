@@ -55,6 +55,26 @@ p {
     font: 1.2em "Garamond";
 }
 
+fieldset {
+    margin: 3em;
+    border-width: 5px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: rgb(100, 100, 100);
+}
+
+textarea {
+    font: 1.3em Garamond;
+}
+
+.small-label {
+    font: 1.1em "Gill Sans";
+}
+
+.large-label {
+    font: 2em "Gill Sans";
+}
+
 button {
     font: 1.1em "Gill Sans";
     background-color: #F8FFF0;
@@ -74,4 +94,8 @@ button:hover {
 
 .center {
     text-align: center;
+}
+
+.margin {
+    margin: 0.75em;
 }
